@@ -16,6 +16,17 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 
 	
+//	@Bean
+//	public Docket apiDoc() {
+//		return new Docket(DocumentationType.SWAGGER_2)
+//			.select()
+//			.apis(RequestHandlerSelectors.basePackage("com.srj.IRCTCResourcesApp"))
+//			.paths(PathSelectors.any())
+//			.build();
+//		
+//	}
+
+	
 	@Bean
 	public Docket apiDoc() {
 		return new Docket(DocumentationType.SWAGGER_2)
